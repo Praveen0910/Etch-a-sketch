@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        
+    </head>
+
+    <body>
+        <header class="header">
+            <h1 class="title">Etch-a-Sketch</h1>
+        </header>
+
+        <main class="main">
+            <div class="buttons">
+                <button id="color">Color Mode</button>
+                <div class="color-pick"><p> Choose Color &nbsp; </p><input id="inputColor" type="color" value="#000000"></div>
+                <button id="rainbow">Rainbow Mode</button>
+                <button id="eraser">Eraser</button>
+                <button id="clear">Clear</button>
+                <div id="sizeValue" class="size-value">16 x 16</div>
+                <input id="sizeSlider" type="range" min="1" max="64" value="16">
+            </div>
+            <div id="grid" class="grid"></div>
+
+        </main>
+
+        <footer class="footer">
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> praveen</p>
+            <a href="" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </footer>
+
+    <script src="script.js"></script>
+    </body>
+</html>
