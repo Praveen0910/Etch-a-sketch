@@ -1,4 +1,4 @@
-console.log("hi")
+
 const DEFAULT_COLOR = '#000000'
 const DEFAULT_MODE = 'color'
 const DEFAULT_SIZE = 16
