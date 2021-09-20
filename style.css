@@ -20,7 +20,6 @@ body {
     background-color: var(--primary-light);
     color: var(--primary-dark);
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
 }
 
 button, input {
